@@ -12,7 +12,6 @@ Here is the summary after of the code.
 <ul>
   <li>Day 1 & Day 2 - Solved Completely</li>
   <li>Day 3 - Part 1 is done </li>
-  <li> Day 5 - Syntactically correct - requires more debugging </li>
   <li>Day 6 - Syntactically correct - requires more debugging</li>
 </ul>
 
