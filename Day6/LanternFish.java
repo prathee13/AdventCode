@@ -14,9 +14,9 @@ public class LanternFish
 {
     public void getCount(ArrayList<Integer> list){
         for(int i=0 ; i<80; i++){
-			int a = list.get(i);
-            if((a--) != 0){
-                list.set(i, a--);
+		int a = list.get(i);
+                if((a--) != 0){
+                   list.set(i, a--);
             } else {
 				list.add(8);
 				list.set(i,6);
@@ -26,18 +26,18 @@ public class LanternFish
     }
 
 	public static void main(String[] args) {
-		ArrayList<Integer> fishes = new ArrayList<Intger>();
+		ArrayList<Integer> fishes = new ArrayList<Integer>();
 		LanternFish lf = new LanternFish();
 		//Reading input files
 		try {
-      		File myObj = new File("/uploads/BinaryDiagnosticInput.txt");
+      		File myObj = new File("/uploads/LanternFishInput.txt");
       		Scanner myReader = new Scanner(myObj);  
-      		myReader.useDelimiter("\\D");
       		while (myReader.hasNext()) {
-        		String str = myReader.nextLine();
-                for(int i=0; i<str.length; i++) {
-                   fishes.add(Integer.parseInt(str[i])); 
-             }
+        		String[] str = myReader.nextLine().split(",");
+        		for(int i=0; i<str.length; i++){
+        		    int data = Integer.parseInt(str[i]);
+        		    fishes.add(data);
+        		}
       		}
       		lf.getCount(fishes);
     	} catch (Exception e) {
