@@ -8,11 +8,11 @@ My Profile: Anonymous user #2168634
 <br><br>
 There's a folder for each day and within that folder is .java class and input (.txt) file.
 <br><br>
-Here is my summary.
+Here is the summary after of the code.
 <ul>
-<li>Day 1 & Day 2 - Solved Completely</li>
-Day 3 - Part 1 is done
-Day 5 - Syntactically correct - requires more debugging
-Day 6 - Syntactically correct - requires more debugging
+  <li>Day 1 & Day 2 - Solved Completely</li>
+  <li>Day 3 - Part 1 is done </li>
+  <li> Day 5 - Syntactically correct - requires more debugging </li>
+  <li>Day 6 - Syntactically correct - requires more debugging</li>
 </ul>
 
