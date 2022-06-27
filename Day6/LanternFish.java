@@ -16,7 +16,7 @@ public class LanternFish
 	    //to keep track of days
 	    for(int j=0; j<80; j++){
 		    //to manipulate list items
-		    for(int i=0 ; i<80; i++){
+		    for(int i=0 ; i<list.size(); i++){
 		int a = list.get(i);
                 if((a--) != 0){
                    list.set(i, a--);
