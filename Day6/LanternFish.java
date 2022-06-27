@@ -1,6 +1,6 @@
 /******************************************************************************
 
-Link to Q5: https://adventofcode.com/2021/day/1
+Link to Q6: https://adventofcode.com/2021/day/6
 Input: Input file
 *******************************************************************************/
 import java.util.ArrayList;
@@ -13,7 +13,10 @@ import java.util.Collections;
 public class LanternFish
 {
     public void getCount(ArrayList<Integer> list){
-        for(int i=0 ; i<80; i++){
+	    //to keep track of days
+	    for(int j=0; j<80; j++){
+		    //to manipulate list items
+		    for(int i=0 ; i<80; i++){
 		int a = list.get(i);
                 if((a--) != 0){
                    list.set(i, a--);
@@ -22,6 +25,8 @@ public class LanternFish
 				list.set(i,6);
 			}
         }
+	    }
+
         System.out.println(list.size());
     }
 
