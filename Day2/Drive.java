@@ -1,6 +1,6 @@
 /******************************************************************************
 
-Link to Q2: https://adventofcode.com/2021/day/1
+Link to Q2: https://adventofcode.com/2021/day/2
 Input: Input file
 *******************************************************************************/
 import java.util.ArrayList;
